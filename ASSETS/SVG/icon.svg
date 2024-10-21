@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 145.55 164.9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3f3f3f;
+        font-family: Caudex, Caudex;
+        font-size: 53px;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #3f3f3f;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(27.57 95.24)"><tspan x="0" y="0">JCZ</tspan></text>
+  <path class="cls-2" d="M140.78,45.55c0-1.43-.78-2.74-2.02-3.45L73.02,4.66l-.24-.14-.22.12L6.81,42.09c-1.24.71-2.01,2.02-2.02,3.44l-.48,71.04c0,1.41.72,2.72,1.93,3.45l66.3,40.2.25.15.24-.14,66.3-40.2c1.2-.73,1.93-2.04,1.93-3.45l-.46-71.03Z"/>
+</svg>
