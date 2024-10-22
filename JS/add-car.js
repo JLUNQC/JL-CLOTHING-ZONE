@@ -56,8 +56,7 @@ addToCart.forEach((button, index) => {
                     counter[index]++;
                     priceall[index] = counter[index] * values[index];
                     document.getElementById( `counter${index}`).innerHTML = `<p>${counter[index]} x ${values[index]}</p>`;
-                    document.getElementById( `price${index}`).innerHTML = "Price: $" + priceall[index]
-                    console.log(priceall);
+                    document.getElementById( `price${index}`).innerHTML = "Price: $" + priceall[index].toFixed(2)
                 }
                 break;
             case 1:
@@ -76,8 +75,7 @@ addToCart.forEach((button, index) => {
                     counter[index]++;
                     priceall[index] = counter[index] * values[index];
                     document.getElementById( `counter${index}`).innerHTML = `<p>${counter[index]} x ${values[index]}</p>`;
-                    document.getElementById( `price${index}`).innerHTML = "Price: $" + priceall[index]
-                    console.log(priceall);
+                    document.getElementById( `price${index}`).innerHTML = "Price: $" + priceall[index].toFixed(2)
                 }
                 break;
             case 2:
@@ -96,8 +94,7 @@ addToCart.forEach((button, index) => {
                     counter[index]++;
                     priceall[index] = counter[index] * values[index];
                     document.getElementById( `counter${index}`).innerHTML = `<p>${counter[index]} x ${values[index]}</p>`;
-                    document.getElementById( `price${index}`).innerHTML = "Price: $" + priceall[index]
-                    console.log(priceall);
+                    document.getElementById( `price${index}`).innerHTML = "Price: $" + priceall[index].toFixed(2)
                 }
                 break;
             case 3:
@@ -116,12 +113,11 @@ addToCart.forEach((button, index) => {
                     counter[index]++;
                     priceall[index] = counter[index] * values[index];
                     document.getElementById( `counter${index}`).innerHTML = `<p>${counter[index]} x ${values[index]}</p>`;
-                    document.getElementById( `price${index}`).innerHTML = "Price: $" + priceall[index]
-                    console.log(priceall);
+                    document.getElementById( `price${index}`).innerHTML = "Price: $" + priceall[index].toFixed(2)
                 }
                 break;
         }
         total = priceall[0] + priceall[1] + priceall[2] + priceall[3]
-        document.getElementById("total").innerHTML = "Total: $" + total;
+        document.getElementById("total").innerHTML = "Total: $" + total.toFixed(2);
     });
 });
