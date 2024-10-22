@@ -260,7 +260,7 @@ footer{
 .detail-4 input{
     border: none;
     background-color: transparent;
-    width: 100%;
+    width: 60%;
     border-bottom: 1px solid var(--gray-line);
     margin-bottom: 10px;
     color: white;
@@ -275,10 +275,10 @@ footer{
 }
 /*End Footer*/
 
-/*carro desplegable*/
+/*car*/
 .carro{
     height: calc(100vh);
-    width: 410px;
+    width: 320px;
     background-color: white;
     top: 0px;
     right: 0px;
@@ -287,7 +287,7 @@ footer{
 }
 .contenido-carro{
     max-width: 100%;
-    padding: 35px;
+    padding: 15px 0px 0px 19px;
 
 }
 .contenido-carro .close{
@@ -300,17 +300,53 @@ footer{
 }
 
 .content-car-info{
-    padding-left: 115px;
-    padding: 15px;
     font-size: 14px;
 }
-
+.content-car h2{
+    padding-top: 15px;
+    font-size: 19px;
+}
 .content-car{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    
+    text-align: end;
+    align-items: center;
 }
-
 .content-car img{
+    padding-right: 20px;
+    margin: 5px 0px;
     width: 90px;
+}
+.add-to-cart{
+    cursor: pointer;
+}
+.carro h3{
+    margin-top: 15px;
+    padding-left: 30px;
+    font-size: 22px;
+}
+/* End car*/
+
+/*media*/
+
+@media (max-width: 1380px ) {
+    .max-width{
+        width: 1000px;
+    }
+    .products{
+        flex-basis: calc(100% / 3);
+    }
+    .product{
+        width: 300px;
+    }
+    .carro{
+        width: 290px;
+    }
+    .category{
+        height: 209px;
+
+    }
+    .category-content{
+        padding: 30px 0px 0px 10px;
+    }
 }
