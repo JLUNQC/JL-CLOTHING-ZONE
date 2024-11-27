@@ -79,7 +79,6 @@ body{
     display: flex;
     align-items: center;
     list-style: none;
-    padding: 20px 0px;
 }
 .left img{
     padding-right: 40px;
